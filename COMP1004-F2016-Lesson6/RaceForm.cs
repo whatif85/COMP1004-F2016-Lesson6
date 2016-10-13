@@ -40,7 +40,7 @@ namespace COMP1004_F2016_Lesson6
         private void RaceListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             RaceSelectedTextBox.Text = RaceListBox.SelectedItem.ToString();
-            // needs a return item, which is why we use ToString method
+            // needs a return item, which is why we use ToString method.
         }
     }
 }
